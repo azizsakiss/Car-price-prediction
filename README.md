@@ -1,18 +1,21 @@
-# Car-price-prediction
+    Car-price-prediction
+    
 This project applies Machine Learning techniques to predict car prices based on their characteristics (make, fuel type, body style, engine size, horsepower, etc.).
 
 We compare multiple regression models such as:
-
-Linear Regression
 
 Random Forest Regressor
 
 XGBoost Regressor
 
+We used a classification model such as:
+
+Random Forest Classifier
+
 The goal is to evaluate which model gives the most accurate predictions and visualize the results.
 
-     Technologies Used
-
+    Technologies Used
+    
 Python 3.x
 
 Pandas
@@ -26,7 +29,7 @@ Matplotlib / Seaborn
 XGBoost
 
     Workflow
-
+    
 Data Loading & Cleaning
 
 Handle missing values
@@ -43,9 +46,9 @@ Correlation analysis
 
 Scatter plots of price vs features
 
-Model Training
+    Model Training
 
-Train Linear Regression, Random Forest, and XGBoost models
+Train Random Forest Regressor and XGBoost Regressor models for regression and Random Forest Classifier for classification.
 
 Compare performance using evaluation metrics
 
@@ -57,18 +60,16 @@ MAE (Mean Absolute Error)
 
 R² (Coefficient of Determination)
 
-Visualization
+    Visualization
 
 Plot predicted vs actual prices
 
 Compare models side by side
 
     📈 Results
+    
+Based on the regression results, Random Forest Regressor generally gives better performance (lower RMSE, higher R²). The classification model also shows good accuracy.
 
-The baseline Linear Regression model provides a simple benchmark.
-
-Random Forest and XGBoost generally give better performance (lower RMSE, higher R²).
-
-Visualizations show predictions close to the ideal diagonal line (y = x).
+Visualizations show predictions close to the ideal diagonal line (y = x) for the regression models and a clear separation of classes in the confusion matrix for the classification model.
 
 
